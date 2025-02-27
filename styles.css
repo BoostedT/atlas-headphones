@@ -6,7 +6,6 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  /* Prevents horizontal scrolling */
   width: 100vw;
   max-width: 100%;
   box-sizing: border-box;
@@ -80,12 +79,13 @@ nav a:hover {
 
 .content p {
   font-weight: 700;
+  margin-top: 10px;
 }
 
 .content h1 {
   font-size: 36px;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .cta-button {
@@ -115,16 +115,54 @@ nav a:hover {
   width: 100%;
   height: 100vh;
   background-color: white;
+  font-family: "Source Sans Pro";
   color: #000;
 }
 
 .what-we-do .stuff {
-position: relative;
-margin: 0;
-padding: 0;
-left: 30%;
-top: 15%;
-max-width: 800px;
+  position: relative;
+  margin: auto;
+  padding: 0;
+  top: 15%;
+  max-width: 800px;
+  font-size: 16px;
+  font-family: Source Sans Pro;
+  line-height: 26px;
+  word-wrap: break-word;
+}
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  max-width: 900px;
+  margin: 25% auto;
+}
+
+.icon-box {
+  text-align: center;
+  flex: 1;
+  max-width: 207px;
+  line-height: 26px;
+}
+
+.icon-box i {
+  font-size: 50px;
+  color: #ff6666;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.icon-box p {
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+  margin: 0 auto; /* Center within its box */
+}
+.icon-box img {
+  width: 50px;
+  height: auto;
+  margin: 20px auto;
 }
 
 @media (max-width: 768px) {
