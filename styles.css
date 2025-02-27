@@ -73,7 +73,7 @@ nav a:hover {
   position: relative;
   z-index: 1;
   max-width: 800px;
-  margin: 0 auto;
+  margin-top: 15%;
   padding: 0 20px;
 }
 
@@ -164,7 +164,28 @@ nav a:hover {
   height: auto;
   margin: 20px auto;
 }
+/* Results */
+.our-results {
+  width: 100%;
+  height: 100vh;
+  background: url("images/headphones_hero_2.jpg") no-repeat center center/cover;
+  font-family: "Source Sans Pro";
+  color: white;
+}
+.our-results img {
+  width: 36%;
+  height: auto;
+}
+.our-results h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: auto;
+}
 
+.results-container {
+  display: flex;
+  margin-top: 20%;
+}
 @media (max-width: 768px) {
   .hero {
     height: 100vh;
