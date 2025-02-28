@@ -286,6 +286,94 @@ nav a:hover {
   text-align: center;
   white-space: nowrap; /* Prevent text wrapping */
 }
+.contact-us {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+  background-color: white;
+  font-family: "Source Sans Pro";
+  color: #000;
+}
+
+.contact-us form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px; /* Controls the width */
+  width: 100%;
+  padding: 30px;
+  border-radius: 10px; /* Soft edges */
+}
+
+.contact-us label {
+  align-self: flex-start;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  position: relative;
+  top: 38px;
+}
+
+.contact-us input,
+.contact-us textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 2px solid #ccc; /* Adds only a bottom border */
+  font-size: 16px;
+  outline: none; /* Removes the default focus outline */
+  background: transparent; /* Removes any background */
+  position: relative;
+}
+.contact-us input:focus,
+.contact-us textarea:focus {
+  border-bottom: 2px solid #ff5a5f; /* Highlight effect */
+}
+.contact-us button {
+  width: 40%;
+  padding: 12px;
+  background-color: #ff5a5f;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.contact-us button:hover {
+  background-color: #e0484d;
+}
+
+footer {
+  color: white;
+  font-size: 12px;
+  background-color: #071629;
+  font-family: Source Sans Pro;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.footer-logo img {
+  width: 160px;
+  height: auto;
+  margin-right: 65%;
+  transform: translate(-80%, 30px);
+}
+.footer-links img {
+  width: 130px;
+  height: auto;
+  margin-left: 65%;
+}
+.footer-links p {
+  margin: auto;
+  opacity: 0.35;
+}
 
 @media (max-width: 768px) {
   .hero {
